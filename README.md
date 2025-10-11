@@ -10,4 +10,6 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="js-logo" />
 </p>
 
+<p>Link de acesso: https://carlos-amorozino.github.io/Starbucks/</p>
+
 <img src="https://raw.githubusercontent.com/Carlos-Amorozino/Starbucks/refs/heads/master/img/Captura%20de%20tela%202025-09-22%20201046.png" alt="captura-site" /> 
