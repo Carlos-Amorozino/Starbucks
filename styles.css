@@ -5,36 +5,41 @@
     font-family: "Poppins", sans-serif;
 }
 
-.copomaior {
-    width: 340px;
+.copo-maior {
+    width: 80%;
+    position: relative;
+    left: 80%;
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     padding-top: 20px;
     padding-right: 100px;
     padding-left: 100px;
 }
 
 .conteudo {
-    width: 100%;
+    width: 80%;
+    height: 60%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .caixa-texto {
-    width: 600px
+    width: 100%;
 }
 
 h1 {
     color: #333333;
-    font-size: 60px;
+    font-size: 200%;
     font-weight: bold;
 }
 
 span {
     color: #017143;
-    font-size: 70px;
+    font-size: 200%;
     font-weight: 900px;
 }
 
@@ -58,10 +63,10 @@ button:hover {
 }
 
 .caixa-imagem {
-    width: 600px;
+    width: 70%;
     display: flex;
     justify-content: flex-end;
-    margin-top: 250px;
+    margin-top: 10%;
 }
 
 .menu {
@@ -86,6 +91,65 @@ button:hover {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 800px);
+    clip-path: circle(40% at right 60%);
     z-index: -1;
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    p {
+        display: none;
+    }
+
+    body {
+        padding: 0;
+        padding: 5% 5% 5% 5%;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .conteudo {
+        width: 100%;
+        align-items: start;
+        text-align: left;
+        font-size: 100%;
+        position: relative;
+        bottom: 13%;
+    }
+
+    span {
+        font-size: 100%;
+    }
+
+    .caixa-texto {
+        width: 105%;
+    }
+
+    .click-here-btn {
+        transform: scale(1.2);
+    }
+
+    .caixa-imagem {
+        width: 100%;
+        margin-top: 90%;
+    }
+
+    .copo-maior {
+        width: 120%;
+        left: 10%;
+    }
+
+    .menu {
+        position: relative;
+        top: 18%;
+    }
 }
